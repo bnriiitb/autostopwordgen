@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-The :mod:`autostopwordgen.stopword_generator` module implements a research paper published by Olatunde et al.,
+The :mod:`autostopwordgen.generator` module implements a research paper published by Olatunde et al.,
 https://www.researchgate.net/publication/318969652_AN_AUTO-GENERATED_APPROACH_OF_STOP_WORDS_USING_AGGREGATED_ANALYSIS
 
 Created on Sat Feb  2 20:50:34 2019
@@ -64,6 +64,6 @@ class AutoStopWordsGen:
         very_high_aggregation=word_freq_df[word_freq_df.frequency<2].word.tolist()
         very_high_aggregation.extend(list(stopwords['frequency'].intersection(stopwords['entropy']).intersection(stopwords['vp'])))
         very_high_aggregation=list(set(very_high_aggregation))
-        logging.info('# stopwords generated :: '+str(len(very_high_aggregation))
+        logging.info('# stopwords generated :: '+str(len(very_high_aggregation)))
         logging.info('generating stopwords completed')
         return very_high_aggregation
