@@ -1,6 +1,6 @@
 # AutoStopwordGen
 
-## Dependencies
+## Installing Dependencies
 
 **autostopwordgen** requires:
 * Python (>= 3.5)
@@ -26,3 +26,8 @@ Then, install dependencies as mentioned in requirements.txt by running the below
 ## Credits
 
 This is an implementaion of the research paper published **An Auto Generated Approach of Stop Words Using Aggregated Analysis** by [Olatunde et al.,](https://www.researchgate.net/publication/318969652_AN_AUTO-GENERATED_APPROACH_OF_STOP_WORDS_USING_AGGREGATED_ANALYSIS)
+
+
+## Issues
+
+* If you find any issues while using this code, please drop me a mail at [nagaraju.iiit@gmail.com]
