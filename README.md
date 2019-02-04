@@ -16,4 +16,4 @@ Then, install dependencies as mentioned in requirements.txt by running the below
     ```
 ## Credits
 
-This is an implementaion of the research paper published by [Olatunde et al.,](https://www.researchgate.net/publication/318969652_AN_AUTO-GENERATED_APPROACH_OF_STOP_WORDS_USING_AGGREGATED_ANALYSIS)
+This is an implementaion of the research paper published by [Olatunde et al.,](https://www.researchgate.net/publication/318969652_AN_AUTO-GENERATED_APPROACH_OF_STOP_WORDS_USING_AGGREGATED_ANALYSIS) An Auto Generated Approach of Stop Words Using Aggregated Analysis
